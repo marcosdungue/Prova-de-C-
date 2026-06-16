@@ -23,7 +23,7 @@ namespace Chat
             }
             btIniciar.Enabled = false;
         }
-
+        //funçao fechar
         public void Fechar(FrmConversa usuario)
         {
             usuarios.Remove(usuario);

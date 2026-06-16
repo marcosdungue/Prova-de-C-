@@ -48,17 +48,17 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Swis721 LtEx BT", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Times New Roman", 20F);
             label1.Location = new Point(10, 27);
             label1.Name = "label1";
-            label1.Size = new Size(372, 29);
+            label1.Size = new Size(337, 31);
             label1.TabIndex = 1;
             label1.Text = "Quantidade de interlocutores:";
             // 
             // btIniciar
             // 
             btIniciar.BackColor = Color.FromArgb(192, 192, 255);
-            btIniciar.Font = new Font("Swis721 LtEx BT", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btIniciar.Font = new Font("Trebuchet MS", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btIniciar.Location = new Point(165, 84);
             btIniciar.Name = "btIniciar";
             btIniciar.Size = new Size(156, 51);
@@ -71,7 +71,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Lavender;
+            BackColor = Color.FromArgb(255, 128, 255);
             ClientSize = new Size(490, 156);
             Controls.Add(btIniciar);
             Controls.Add(label1);
